@@ -1,0 +1,19 @@
+.bg-img {
+    background: url('https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w') no-repeat center fixed;
+    background-size: cover;
+    padding-block: 40%;
+}
+
+.overlay {
+    background-color: #0000008b;
+    text-align: center;
+    color: #ab296a;
+    z-index: 1;
+}
+
+span {
+    display: inline-flexbox;
+}
+#color {
+    background-color: #f7d6e6;
+}
