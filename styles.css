@@ -1,3 +1,12 @@
+span {
+    display: inline-flexbox;
+}
+
+.color {
+    background-color: #f7d6e6;
+}
+
+
 .bg-img {
     background-image: linear-gradient(rgba(222,222,222,.5), rgba(200,200,200,.5)), url("https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w");
     background-repeat: no-repeat;
@@ -5,15 +14,21 @@
     padding-block: 40%;
 }
 
+#bg_img_id {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w");
+}
+
 .overlay {
     text-align: center;
     color: #ab296a;
     z-index: 1;
+    padding: 0;
+    margin: auto;
 }
 
-span {
-    display: inline-flexbox;
-}
-.color {
-    background-color: #f7d6e6;
+
+
+#forms, #checks, #radios{
+    padding: 0;
+    margin: 0;
 }
