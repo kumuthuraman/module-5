@@ -42,17 +42,19 @@
     <!--main-->
     <main>
         <!--2x1 grid-->
-        <div class="container text-right">
-            <div class="row" id="littleGrid">
+        <div class="container m-0 min-vw-100 p-0">
+            <div class="row min-vw-100 p-0 m-0" id="littleGrid">
                 <!--div that will hold the form elements-->
-                <div class="col" id="left_col">
+                <div class="col my-5 mx-3" id="left_col">
                     <h1>Contact Us</h1>
-                    <hr>
-                    <form>
+                    <hr class="border border-dark border-3 rounded opacity-95">
+                    <form class="w-75 p-3 mx-auto">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" id="name" placeholder="Name" class="form-control">
+                        <input type="text" id="name" placeholder="Name" class="form-control" required>
+                        <br>
                         <label for="reason" class="form-label">Reason for Contact</label>
-                        <textarea placeholder="Write your message here" class="form-control" rows="4"></textarea>
+                        <textarea placeholder="Write your message here" class="form-control" rows="4" id="reason" required></textarea>
+                        <br>
                         <!--radio and checkbox element grid-->
                         <div class="container text-right">
                             <!--checkboxes-->
@@ -114,13 +116,13 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <br>
+                        <button type="submit" class="btn btn-success">Submit</button>
                     </form>
-                    <hr>
+                    <hr class="border border-dark border-3 rounded opacity-95">
                 </div>
                 <!--div that will hold an image-->
-                <div class="col" id="right_col">
-
+                <div class="col" id="bg_img_id">
                 </div>
             </div>
         </div>
