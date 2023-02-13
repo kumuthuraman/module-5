@@ -1,11 +1,11 @@
 .bg-img {
-    background: url('https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w') no-repeat center fixed;
+    background-image: linear-gradient(rgba(222,222,222,.5), rgba(200,200,200,.5)), url("https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w");
+    background-repeat: no-repeat;
     background-size: cover;
     padding-block: 40%;
 }
 
 .overlay {
-    background-color: #0000008b;
     text-align: center;
     color: #ab296a;
     z-index: 1;
@@ -14,6 +14,6 @@
 span {
     display: inline-flexbox;
 }
-#color {
+.color {
     background-color: #f7d6e6;
 }
