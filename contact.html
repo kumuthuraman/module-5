@@ -15,25 +15,122 @@
 </head>
 
 <body>
-    <!-- Navigation Bar Start-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style = "padding: 0;">
-        <div class="container-fluid" id = "color">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="about.html">About</a>
-                    <a class="nav-link active" aria-current="page" href="contact.html" style = "color: #2B0A1A">Contact Us</a>
-                </ul>
+    <header>
+        <!-- Navigation Bar Start-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0;">
+            <div class="container-fluid color">
+                <a class="navbar-brand" href="#">
+                    <h1>Navbar</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" aria-current="page" href="contact.html"
+                            style="color: #2B0A1A">Contact Us</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--end of nav-->
+    </header>
+    <!--main-->
+    <main>
+        <!--2x1 grid-->
+        <div class="container text-right">
+            <div class="row" id="littleGrid">
+                <!--div that will hold the form elements-->
+                <div class="col" id="left_col">
+                    <h1>Contact Us</h1>
+                    <hr>
+                    <form>
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" placeholder="Name" class="form-control">
+                        <label for="reason" class="form-label">Reason for Contact</label>
+                        <textarea placeholder="Write your message here" class="form-control" rows="4"></textarea>
+                        <!--radio and checkbox element grid-->
+                        <div class="container text-right">
+                            <!--checkboxes-->
+                            <div class="row" id="forms">
+                                <div class="col" id="checks">
+                                    <label for="form-check" class="form-label">Favorite Dessert</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Ice Cream
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Cake
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Cookies
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Chocolate
+                                        </label>
+                                    </div>
+                                </div>
+                                <!--radiobuttons-->
+                                <div class="col" id="radios">
+                                    <label for="form-check" class="form-label">Priority</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Not Important
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            A Little Important
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Important
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            High Priority
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <hr>
+                </div>
+                <!--div that will hold an image-->
+                <div class="col" id="right_col">
+
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- Navigation Bar End-->
+    </main>
+    <!--footer element that just says footer lol-->
+    <footer>
+        <div class="fixed-bottom container-fluid color">
+            <h3>Footer</h3>
+        </div>
+    </footer>
 </body>
 
 </html>
