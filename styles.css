@@ -1,21 +1,23 @@
+/**written by kiran muthuraman and gabriel abbate**/
 span {
     display: inline-flexbox;
 }
 
 .color {
     background-color: #f7d6e6;
+    color:#ab296a;
 }
 
 
 .bg-img {
-    background-image: linear-gradient(rgba(222,222,222,.5), rgba(200,200,200,.5)), url("https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w");
+    background-image: linear-gradient(rgba(103, 90, 90, 0.5), rgba(200,200,200,.5)), url("https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w");
     background-repeat: no-repeat;
     background-size: cover;
     padding-block: 40%;
 }
 
 #bg_img_id {
-    background-image: url("https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w");
+    background-image: linear-gradient(rgba(160, 137, 137, 0.381), rgba(200,200,200,.5)), url("https://images.squarespace-cdn.com/content/v1/58c35a0e579fb3281396b7f0/1540242573416-NV3UJKW7LWECGJK8H2TB/Himeji+castle.jpg?format=1000w");
 }
 
 .overlay {
@@ -31,4 +33,19 @@ span {
 #forms, #checks, #radios{
     padding: 0;
     margin: 0;
+}
+
+.title-color {
+    color: #ab296a;
+}
+
+.text-color {
+    color: #2B0A1A;
+}
+
+.img-ol {
+    background-color: linear-gradient(rgba(103, 90, 90, 0.5), rgba(200,200,200,.5));
+}
+.height {
+    height: 500px;
 }

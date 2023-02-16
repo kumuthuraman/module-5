@@ -1,3 +1,4 @@
+<!--written by kiran muthuraman and gabriel abbate-->
 <!doctype html>
 
 <html lang="en">
@@ -19,7 +20,7 @@
         <!-- Navigation Bar Start-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0;">
             <div class="container-fluid color">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#" style = "color: #ab296a">
                     <h1>Navbar</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,8 +30,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="index.html" style = "color: #9B8C93;">Home</a>
+                        <a class="nav-link" href="about.html" style = "color: #9B8C93;">About</a>
                         <a class="nav-link active" aria-current="page" href="contact.html"
                             style="color: #2B0A1A">Contact Us</a>
                     </ul>
@@ -46,69 +47,69 @@
             <div class="row min-vw-100 p-0 m-0" id="littleGrid">
                 <!--div that will hold the form elements-->
                 <div class="col my-5 mx-3" id="left_col">
-                    <h1>Contact Us</h1>
-                    <hr class="border border-dark border-3 rounded opacity-95">
+                    <h1 class = "title-color">Contact Us</h1>
+                    <hr class="border border-danger border-3 rounded opacity-95">
                     <form class="w-75 p-3 mx-auto">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" id="name" placeholder="Name" class="form-control" required>
+                        <label for="name" class="form-label text-color">Name</label>
+                        <input type="text" id="name" placeholder="Name" class="form-control" style = "border-color: #2B0A1A;" required>
                         <br>
-                        <label for="reason" class="form-label">Reason for Contact</label>
-                        <textarea placeholder="Write your message here" class="form-control" rows="4" id="reason" required></textarea>
+                        <label for="reason" class="form-label text-color">Reason for Contact</label>
+                        <textarea placeholder="Write your message here" class="form-control" rows="4" id="reason" style = "border-color: #2B0A1A;" required></textarea>
                         <br>
                         <!--radio and checkbox element grid-->
                         <div class="container text-right">
                             <!--checkboxes-->
                             <div class="row" id="forms">
-                                <div class="col" id="checks">
+                                <div class="col text-color" id="checks">
                                     <label for="form-check" class="form-label">Favorite Dessert</label>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexCheckDefault">
                                             Ice Cream
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexCheckDefault">
                                             Cake
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexCheckDefault">
                                             Cookies
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexCheckChecked">
                                             Chocolate
                                         </label>
                                     </div>
                                 </div>
                                 <!--radiobuttons-->
-                                <div class="col" id="radios">
+                                <div class="col text-color" id="radios">
                                     <label for="form-check" class="form-label">Priority</label>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             Not Important
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexRadioDefault2">
                                             A Little Important
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexRadioDefault2">
                                             Important
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" style = "border-color: #2B0A1A;">
                                         <label class="form-check-label" for="flexRadioDefault2">
                                             High Priority
                                         </label>
@@ -117,9 +118,9 @@
                             </div>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-success" style = "border-color: #2B0A1A; background-color: #fff; color:#2B0A1A; margin-left: 40%">Submit</button>
                     </form>
-                    <hr class="border border-dark border-3 rounded opacity-95">
+                    <hr class="border border-danger border-3 rounded opacity-95">
                 </div>
                 <!--div that will hold an image-->
                 <div class="col" id="bg_img_id">
